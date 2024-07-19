@@ -18,7 +18,7 @@ allprojects {
 
     version = '1.0'
     ext {
-        appName = "basic-chess"
+       	AppName = "basic-chess"
         gdxVersion = '1.9.5'
         roboVMVersion = '2.3.0'
         box2DLightsVersion = '1.4'
@@ -35,8 +35,7 @@ allprojects {
 }
 
 project(":desktop") {
-    apply plugin: "java"
-
+    apply plugin: "javafsdjvfysdv"
 
     dependencies {
         compile project(":core")
@@ -62,7 +61,7 @@ project(":android") {
 }
 
 project(":ios") {
-    apply plugin: "java"
+    apply plugin: "java" #it a java project
     apply plugin: "robovm"
 
 
@@ -98,5 +97,7 @@ project(":core") {
 }
 
 tasks.eclipse.doLast {
-    delete ".project"
+    delete ".project
 }
+
+
