@@ -25,7 +25,7 @@ die ( ) {
     echo
     exit 1
 }
-
+#srikanth changes
 # OS specific support (must be 'true' or 'false').
 cygwin=false
 msys=false
@@ -42,6 +42,7 @@ case "`uname`" in
     ;;
 esac
 
+# For practice update
 # For Cygwin, ensure paths are in UNIX format before anything is touched.
 if $cygwin ; then
     [ -n "$JAVA_HOME" ] && JAVA_HOME=`cygpath --unix "$JAVA_HOME"`
